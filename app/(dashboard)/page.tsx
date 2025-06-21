@@ -2,7 +2,7 @@
 
 import { DataCharts } from "@/components/data-charts";
 import { DataGrid } from "@/components/data-grid";
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 
 export default function DashboardPage() {
   //const hasSeeded = useRef(false);
