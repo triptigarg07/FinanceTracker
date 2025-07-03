@@ -143,3 +143,5 @@ MIT
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Radix UI](https://www.radix-ui.com/)
 - [Lucide Icons](https://lucide.dev/)
+
+**Built by Tripti Garg**
