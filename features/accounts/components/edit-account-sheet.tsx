@@ -77,7 +77,7 @@ export const EditAccountSheet = () => {
             <SheetDescription>Edit an existing account</SheetDescription>
           </SheetHeader>
           {isLoading ? (
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center p-4 min-h-[120px]">
               <Loader2 className="size-4 text-muted-foreground animate-spin" />
             </div>
           ) : (

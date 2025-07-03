@@ -205,7 +205,7 @@ const TransactionForm = ({
             )}
           />
         </div>
-        <Button className="w-3/4 block mx-auto" disabled={disabled}>
+        <Button className="w-full max-w-xs sm:w-3/4 block mx-auto" disabled={disabled}>
           {id ? "Save Changes" : "Create transaction"}
         </Button>
         {!!id && (
@@ -213,7 +213,7 @@ const TransactionForm = ({
             type="button"
             disabled={disabled}
             onClick={handleDelete}
-            className="w-3/4 mx-auto flex items-center justify-center gap-2"
+            className="w-full max-w-xs sm:w-3/4 mx-auto flex items-center justify-center gap-2"
             variant="outline"
           >
             <Trash className="size-4" />
