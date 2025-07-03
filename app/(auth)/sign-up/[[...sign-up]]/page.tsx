@@ -14,36 +14,36 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="relative min-h-screen flex items-center justify-center p-4">
+      <div className="relative min-h-screen flex items-center justify-center p-2 sm:p-4">
         <div className="w-full max-w-md">
           {/* Header */}
-          <div className="text-center mb-8">
-            <div className="flex items-center justify-center space-x-3 mb-6">
+          <div className="text-center mb-4 sm:mb-8">
+            <div className="flex items-center justify-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
               <div className="relative">
                 <Image 
                   src="/logo.svg" 
-                  height={48} 
-                  width={48} 
+                  height={36} 
+                  width={36} 
                   alt="Logo" 
                   className="drop-shadow-sm"
                 />
-                <Sparkles className="absolute -top-1 -right-1 h-5 w-5 text-emerald-500 animate-pulse" />
+                <Sparkles className="absolute -top-1 -right-1 h-4 w-4 sm:h-5 sm:w-5 text-emerald-500 animate-pulse" />
               </div>
-              <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-slate-900 to-slate-600 bg-clip-text text-transparent dark:from-slate-100 dark:to-slate-400">
+              <h1 className="text-xl sm:text-3xl font-bold tracking-tight bg-gradient-to-r from-slate-900 to-slate-600 bg-clip-text text-transparent dark:from-slate-100 dark:to-slate-400">
                 FinanceTracker
               </h1>
             </div>
-            <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-2">
+            <h2 className="text-lg sm:text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-1 sm:mb-2">
               Join us today
             </h2>
-            <p className="text-slate-600 dark:text-slate-400">
+            <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base">
               Create your account and start your financial journey with confidence
             </p>
           </div>
 
           {/* Auth Card */}
-          <div className="bg-white/80 backdrop-blur-sm border border-white/20 rounded-2xl shadow-xl p-8">
-            <div className="flex items-center justify-center mb-6">
+          <div className="bg-white/80 backdrop-blur-sm border border-white/20 rounded-2xl shadow-xl p-2 sm:p-8">
+            <div className="flex items-center justify-center mb-4 sm:mb-6">
               <div className="flex items-center space-x-2 text-sm text-slate-500 dark:text-slate-400">
                 <Rocket className="h-4 w-4" />
                 <span>Start Your Journey</span>
